@@ -1,6 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@500&family=Poppins:wght@300&display=swap');
+
 * {
-    margin: 0;
-    padding: 0;
+    padding: var(--size-fluid-0);
+    margin: var(--size-fluid-0);
     box-sizing: border-box;
+    font-family: var(--font-sans);
+  }
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav-ul {
+    display: flex;
+    justify-content: space-around;
+}
