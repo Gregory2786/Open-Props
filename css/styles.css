@@ -3,14 +3,23 @@
 @import "https://unpkg.com/open-props/normalize.min.css";
 
 
+#topcard{
+    display: flex;
+    flex-wrap: wrap;
 
+}
+#seeall{
+    margin-left: 90%;
+    border-radius: var(--radius-2);
+    padding: var(--size-fluid-1);
+}
 #cards{
   display: flex;
   flex-flow: row wrap;
   align-items: flex-start;
   justify-content: space-around;
-  max-inline-size: calc(var(--size-content-1) * 4);
-  gap: var(--size-3);
+  max-inline-size: calc(var(--size-content-1) * 5);
+  gap: var(--size-2);
   padding: var(--size-5);
 }
 
@@ -36,7 +45,10 @@ span{
 body {
     font-family: 'Poppins', sans-serif;
 }
-
+h1{
+    font-size: 30px;
+    word-wrap: normal;
+}
 .header-nav {
     display: flex;
     justify-content: space-between;
