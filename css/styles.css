@@ -15,6 +15,18 @@ main {
     background: linear-gradient(#010101, #1a0e01);
 } 
 
+.container {
+    width: 80%;
+    margin: 0 auto; 
+    padding: 20px; 
+    box-sizing: border-box; 
+}
+
+.relativeimg {
+    position: relative;
+    
+}
+
 .header-nav {
     display: flex;
     justify-content: space-between;
