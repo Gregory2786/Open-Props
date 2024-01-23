@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Palanquin:wght@500&family=Poppins:wght@300&display=swap');
 @import "https://unpkg.com/open-props";
 @import "https://unpkg.com/open-props/normalize.min.css";
-
+@import "open-props/colors-hsl";
 * {
     padding: var(--size-fluid-0);
     margin: var(--size-fluid-0);
@@ -26,14 +26,18 @@ main {
 }
 
 #topcard{
-    display: flex;
-    flex-wrap: wrap;
-
+   display: flex;
+   align-items: baseline;
+   padding: var(--size-);
+   justify-content: space-between;
+   width: 89%;
+   padding: var(--size-2);
 }
 #seeall{
-    margin-left: 90%;
     border-radius: var(--radius-2);
     padding: var(--size-fluid-1);
+    background-color: #3b322add;
+    
 }
 #cards{
   display: flex;
@@ -43,6 +47,7 @@ main {
   max-inline-size: calc(var(--size-content-1) * 5);
   gap: var(--size-2);
   padding: var(--size-5);
+  
 }
 
 .card {
@@ -66,9 +71,9 @@ span{
 body {
     font-family: 'Poppins', sans-serif;
 }
-h1{
-    font-size: 30px;
-    word-wrap: normal;
+h3{
+    font-size: 31px;
+    margin-left:var(--size-6); ;
 }
 
 i{
