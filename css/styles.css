@@ -348,3 +348,98 @@ footer {
 .copy p {
     font-size: var(--font-size-1)
 }
+
+.box {
+    padding-top: var(--size-fluid-6);
+    padding-bottom: var(--size-fluid-6);
+}
+
+.bgSection {
+    background: linear-gradient(#080200, #150a00);
+}
+
+.projetos h1 {
+    font-size: var(--font-size-4);
+    font-weight: var(--font-weight-9);
+    padding-top: var(--size-fluid-3);
+    padding-bottom: var(--size-fluid-2);
+    margin: 0 auto;
+}
+
+.projetos p {
+    font-size: var(--font-size-1);
+}
+
+.secText h1 {
+    color: var(--gray-0);
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-9);
+    padding-bottom: var(--size-3);
+    padding-top: var(--size-3);
+}
+
+.secText p {
+    color: var(--gray-0);
+    padding-bottom: var(--size-9);
+    padding-top: var(--size-4);
+    font-size: var(--font-size-1);
+}
+
+.boxForm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 249, 249, 0.07);
+    padding: var(--size-fluid-3);
+    border-radius: var(--radius-3);
+}
+
+.contentText {
+    width: 60%;
+}
+
+#textP1 {
+    font-size: var(--font-size-3);
+    font-weight: var(--font-weight-9);
+    color: var(--gray-0);
+    line-height: var(--font-lineheight-5);
+}
+
+#textP2 {
+    font-size: var(--font-size-1);
+    color: var(--gray-0);
+}
+
+.contentLabel {
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: var(--size-2) var(--size-2) var(--size-2) var(--size-2);
+    background-color: var(--gray-0);
+    border-radius: var(--radius-2);
+}
+
+.contentLabel input {
+    background-color: var(--gray-0);
+}
+
+.contentLabel button { 
+    background-color: var(--yellow-7);
+    padding-top: var(--size-1);
+    padding-bottom: var(--size-1);
+    padding-left: var(--size-3);
+    padding-right: var(--size-3);
+    border-radius: var(--radius-2);
+    color: var(--gray-0);
+    border-radius: var(--radius-2);
+}
+
+.tituloSecao {
+    color: var(--gray-0);
+}
+
+.paragrafoSecao {
+    color: var(--gray-0);
+    font-size: var(--font-size-1);
+}
