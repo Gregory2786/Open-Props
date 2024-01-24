@@ -124,10 +124,8 @@ main {
 #topcard{
    display: flex;
    align-items: baseline;
-   padding: var(--size-);
    justify-content: space-between;
    width: 89%;
-   padding: var(--size-2);
 }
 #seeall{
     border-radius: var(--radius-2);
@@ -135,6 +133,7 @@ main {
     background-color: #3b322add;
     
 }
+
 #cards{
   display: flex;
   flex-flow: row wrap;
@@ -145,7 +144,9 @@ main {
   padding: var(--size-5);
   
 }
-
+#cards2{
+    margin-left: 10%;
+}
 .card {
   flex-basis: var(--size-content-1);
   display: flex;
@@ -193,15 +194,28 @@ i{
     border-radius: var(--radius-2);
     display: block;
 }
+#loren{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+#titulo4{
+    font-size: 35px;
+    margin-top: 3%;
+}
+#paragrafoloren{
+    font-size: 16px;
+    margin-top: 3%;
+}
 #sectionwork{
     align-content:center ;
 }
 #works{
     display: flex;
     justify-content: center;
-    flex-direction:row;
-    gap: var(--size-2);
-    padding: var(--size-10);
+    flex-direction: row;
+    padding: var(--size-fluid-6);
+    margin-left: 15%;
 }
 #work{
     padding: var(--size-3);
@@ -216,7 +230,7 @@ i{
 #twoimage{
     display: flex;
     justify-content: center;
-    
+    margin-left: 15%;
 
 }
 #imgwork{
