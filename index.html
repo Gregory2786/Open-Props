@@ -20,21 +20,12 @@
                 <nav class="header-nav">
                     <a href=""><img class="logo" src="images/logo.png" alt=""></a>
                     <ul class="header-nav-ul">
-                        <li>
-                            <a href="#">Home</a>
-                        </li>
-                        <li>
-                            <a href="">About us</a>
-                        </li>
-                        <li>
-                            <a href="#">Portfolio</a>
-                        </li>
-                        <li>
-                            <a href="#">News</a>
-                        </li>
-                        <li>
-                            <a href=""><button class="headerBtn">Contact us</button></a>
-                        </li>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#"><button class="headerBtn">Contact us</button></a></li>
+                        <li class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></li>
                     </ul>
                 </nav>
             </header>
@@ -98,7 +89,7 @@
 
     </main>
     
-    <section>
+    <section class="container">
         <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         <div>
@@ -136,28 +127,34 @@
     </section>
 
     <!-- Editado por Jônatas -->
-    <section>
+    <section  class="container">
         <h1>Our Recent Projects</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-        <div>
-            <div>
-                <img src="images/game1.png" alt="">
+        <div class="galeria">
+            <div class="imagem">
+                <img src="images/projeto1.png" alt="">
             </div>
-            <div>
-                <img src="images/game2.png" alt="">
+            <div class="imagem">
+                <img src="images/projeto2.png" alt="">
             </div>
-            <div>
-                <img src="images/game3.png" alt="">
+            <div class="imagem">
+                <img src="images/projeto3.png" alt="">
             </div>
-            <div>
-                <img src="images/game4.png" alt="">
+            <div class="imagem">
+                <img src="images/projeto4.png" alt="">
+            </div>
+            <div class="imagem">
+                <img src="images/projeto5.png" alt="">
+            </div>
+            <div class="imagem">
+                <img src="images/projeto6.png" alt="">
             </div>
         </div>
         <button>See all</button>
     </section>
     <!-- Fim seção -->
 
-    <section>
+    <section class="container">
         <h1>Lorem Ipsum</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
         <div>
@@ -169,16 +166,16 @@
             <button>Continue</button>
         </div>
     </section>
-
+    
     <!-- Editado por Jônatas -->
     <footer>
-        <div>
-            <div>
+        <div  class="footerElement container">
+            <div class="item" id="info">
                 <img src="images/logo.png" alt="">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <span>@logo</span>
+                <p>@logo</p>
             </div>
-            <div>
+            <div class="item" id="about">
                 <h2>About us</h2>
                 <ul>
                     <li><a href="#">Zeux</a></li>
@@ -187,29 +184,29 @@
                     <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="item" id="contact">
                 <h2>Contact us</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                 <p>+908 89097 890</p>
             </div>
-            <div>
-                <div>
-                    <i class="fa-brands fa-facebook"></i>
+            <div class="item" id="sociasMedias">
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
                 </div>
-                <div>
-                    <i class="fa-brands fa-instagram"></i>
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
                 </div>
-                <div>
-                    <i class="fa-brands fa-twitter"></i>
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
                 </div>
-                <div>
-                    <i class="fa-brands fa-linkedin"></i>
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-        <hr>
-        <div>
-            <p>Copyright ® 2021 Lorem All rights Rcerved</p>
+        <hr class="line">
+        <div class="copy">
+            <p>Copyright ® 2024 Lorem All rights Rcerved</p>
         </div>
     </footer>
     <!-- Fim seção -->
