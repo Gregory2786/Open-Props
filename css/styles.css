@@ -46,6 +46,11 @@ main {
     font-size: var(--font-size-1);
 }
 
+.icon {
+    color: var(--gray-0);
+    display: none;
+}
+
 .headerBtn {
     background-color: var(--yellow-7);
     padding-inline-end: 20px;
@@ -107,7 +112,7 @@ main {
 
 .joystick {
     position: absolute;
-    left: 50%;
+    left: 52%;
 }
 
 .unity {
@@ -169,36 +174,16 @@ i{
     
 }
 
-.box {
-    padding-top: var(--size-fluid-6);
-    padding-bottom: var(--size-fluid-6);
-}
-
-.bgSection {
-    background: linear-gradient(#080200, #150a00);
-}
-
-.projetos h1 {
-    font-size: var(--font-size-4);
-    font-weight: var(--font-weight-9);
-    padding-top: var(--size-fluid-3);
-    padding-bottom: var(--size-fluid-2);
-    margin: 0 auto;
-}
-
-.projetos p {
-    font-size: var(--font-size-1);
-}
-
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
-    padding: 20px;;
+    padding: 20px;
 }
 
 .imagem {
     overflow: hidden;
+    border: 1px solid #ddd; 
     border-radius: 5px;
 }
 
@@ -209,7 +194,77 @@ i{
     border-radius: var(--radius-2);
     display: block;
 }
+#tituloomiranha{
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+#paragrafoomiranha{
+    margin-top: 2%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+#omiranha{
+    margin-top: 5%;
+    width: 100%;
+}
+#loren{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+}
+#titulo4{
+    font-size: 35px;
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+#paragrafoloren{
+    font-size: 16px;
+    margin-top: 3%;
+    font-family: 'Poppins', sans-serif;
+}
+#sectionwork{
+    align-content:center ;
+}
+#wconf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#works{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding: var(--size-fluid-6);
+    margin-left: 15%;
+}
+#work{
+    padding: var(--size-3);
+    display: flex;
+    background-color: var(--gray-0);
+    border-radius: 50%;
+    justify-content: center;
+    width: 40%;
 
+
+}
+#pwork{
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    margin-left:0%;
+}
+#twoimage{
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+
+}
+#imgwork{
+    width: var(--size-content-1);
+    height: var(--size-8);
+}
 footer {
     background-color: #070707;
     color: var(--gray-0);
