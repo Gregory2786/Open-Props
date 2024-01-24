@@ -10,80 +10,86 @@
     <title>Open Props Project</title>
 </head>
 <body>
-    <div>
-        <header>
-            <nav class="header-nav">
-                <a href=""><img src="images/logo.png" alt=""></a>
-                <ul class="header-nav-ul">
-                    <li>
-                        <a href="#">Home</a>
-                    </li>
-                    <li>
-                        <a href="">About us</a>
-                    </li>
-                    <li>
-                        <a href="#">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="#">News</a>
-                    </li>
-                    <li>
-                        <a href=""><button>Contact us</button></a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
-        <div>
-           <span>3D game Dev</span>
-           <p>Work that we produce for our clients</p>
-           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard.</p>
-           <button>Get more details</button>
+    <!-- Editado por Jônatas -->
+    <main>
+        <div class="container">
+            <div class="joystick">
+                <img src="images/joystick.png" alt="">
+            </div>
+            <header>
+                <nav class="header-nav">
+                    <a href=""><img class="logo" src="images/logo.png" alt=""></a>
+                    <ul class="header-nav-ul">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="">About us</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#"><button class="headerBtn">Contact us</button></a></li>
+                        <li class="icon" onclick="myFunction()"><i class="fa-solid fa-bars"></i></li>
+                    </ul>
+                </nav>
+            </header>
+            <div class="tituloPrincipal">
+               <p id="p1">3D game Dev</p>
+               <p id="p2">Work that we<br> produce for our<br> clients</p>
+               <p id="p3">Lorem Ipsum is simply dummy text of the printing and<br> typesetting industry. Lorem Ipsum has been the industry's<br> standard.</p>
+               <button>Get more details</button>
+            </div>
         </div>
-        <div>
-            <img src="images/controle.png" alt="">
-            <img src="images/unity.png" alt="">
-            <img src="images/cryengine.png" alt="">
-            <img src="images/unrealengine.png" alt="">
-        </div>
-    </div>
-    <section >
-        <div id="topcard">
-            <h1>Currently Trending Games</h1>
-            <button id="seeall">See all</button>
-        </div>
-        <div id="cards">
-
-            <div class="card">
+        <!-- Fim seção -->
+    
+        <!-- Editado por Gregory -->
+        <section class="container">
+            <div id="topcard">
+                <h3>Currently Trending Games</h1>
+                <button id="seeall">SEE ALL</button>
+            </div>
+            <div id="cards">
+    
+                <div class="card">
+                    <img src="images/game1.png" alt="Card image cap">
+                    <div id="rodapecard">
+                        <i class="fa-solid fa-fire"></i>
+                        <span>40 Followers</span>
+                    </div>
+                </div>  
+                <div class="card">
+                    <img src="images/game2.png" alt="Card image cap">
+                    <div id="rodapecard">
+                        <i class="fa-solid fa-fire"></i>
+                        <span>40 Followers</span>
+                    </div>
+                </div>
+                <div class="card">
+                    <img class="card-img" src="images/game3.png" alt="Card image cap">
+                    <div id="rodapecard">
+                        <i class="fa-solid fa-fire"></i>
+                        <span>40 Followers</span>
+                    </div>
+                </div>
+                  <div class="card">
+                    <img class="card-img" src="images/game4.png" alt="Card image cap">
+                    <div id="rodapecard">
+                        <i class="fa-solid fa-fire"></i>
+                        <span> 40 Followers</span>
+                    </div>
+                </div>
+         
+                </div>
+            </div>
            
-                <img src="images/game1.png" alt="Card image cap">
-                <span>40 Followers</span>
-            </div>
-              
-            <div class="card">
-                <img src="images/game2.png" alt="Card image cap">
-                <span>40 Followers</span>
-            </div>
-              
-            <div class="card">
-                <img class="card-img" src="images/game3.png" alt="Card image cap">
-                <span>40 Followers</span>
-              </div>
-              <div class="card">
-                <img class="card-img" src="images/game4.png" alt="Card image cap">
-                <span>40 Followers</span>
-              </div>
-            </div>
-     
-            </div>
-        </div>
-       
-    </section>
-    <section>
-        <h1>Lorem Ipsum</h1>
-        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
-        <img src="images/homemaranha.png" alt="">
-    </section>
-    <section>
+        </section>
+        <!-- Fim seção-->
+    
+        <section class="container">
+            <h1>Lorem Ipsum</h1>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+            <img src="images/homemaranha.png" alt="">
+        </section>
+
+    </main>
+    
+    <section class="container">
         <h1>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
         <div>
@@ -119,26 +125,36 @@
             </div>
         </div>
     </section>
-    <section>
+
+    <!-- Editado por Jônatas -->
+    <section  class="container">
         <h1>Our Recent Projects</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-        <div>
-            <div>
-                <img src="images/game1.png" alt="">
+        <div class="galeria">
+            <div class="imagem">
+                <img src="images/projeto1.png" alt="">
             </div>
-            <div>
-                <img src="images/game2.png" alt="">
+            <div class="imagem">
+                <img src="images/projeto2.png" alt="">
             </div>
-            <div>
-                <img src="images/game3.png" alt="">
+            <div class="imagem">
+                <img src="images/projeto3.png" alt="">
             </div>
-            <div>
-                <img src="images/game4.png" alt="">
+            <div class="imagem">
+                <img src="images/projeto4.png" alt="">
+            </div>
+            <div class="imagem">
+                <img src="images/projeto5.png" alt="">
+            </div>
+            <div class="imagem">
+                <img src="images/projeto6.png" alt="">
             </div>
         </div>
         <button>See all</button>
     </section>
-    <section>
+    <!-- Fim seção -->
+
+    <section class="container">
         <h1>Lorem Ipsum</h1>
         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
         <div>
@@ -150,47 +166,51 @@
             <button>Continue</button>
         </div>
     </section>
+    
+    <!-- Editado por Jônatas -->
     <footer>
-        <div>
-            <div>
+        <div  class="footerElement container">
+            <div class="item" id="info">
                 <img src="images/logo.png" alt="">
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
-                <span>@logo</span>
+                <p>@logo</p>
             </div>
-            <div>
+            <div class="item" id="about">
                 <h2>About us</h2>
                 <ul>
                     <li><a href="#">Zeux</a></li>
-                    <li><a href="">Portfolio</a></li>
-                    <li><a href="Careers"></a></li>
-                    <li><a href="Contact us"></a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Contact us</a></li>
                 </ul>
             </div>
-            <div>
+            <div class="item" id="contact">
                 <h2>Contact us</h2>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
                 <p>+908 89097 890</p>
             </div>
-            <div>
-                <div>
-                    <i class="fa-brands fa-facebook"></i>
+            <div class="item" id="sociasMedias">
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
                 </div>
-                <div>
-                    <i class="fa-brands fa-instagram"></i>
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
                 </div>
-                <div>
-                    <i class="fa-brands fa-twitter"></i>
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
                 </div>
-                <div>
-                    <i class="fa-brands fa-linkedin"></i>
+                <div id="item">
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
                 </div>
             </div>
         </div>
-        <hr>
-        <div>
-            <p>Copyright ® 2021 Lorem All rights Rcerved</p>
+        <hr class="line">
+        <div class="copy">
+            <p>Copyright ® 2024 Lorem All rights Rcerved</p>
         </div>
     </footer>
+    <!-- Fim seção -->
 </body>
+<!-- Font awesome-->
 <script src="https://kit.fontawesome.com/4f7465debd.js" crossorigin="anonymous"></script>
 </html>
