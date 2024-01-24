@@ -131,7 +131,6 @@ main {
     border-radius: var(--radius-2);
     padding: var(--size-fluid-1);
     background-color: #3b322add;
-    
 }
 
 #cards{
@@ -197,12 +196,10 @@ i{
 #tituloomiranha{
     margin-top: 5%;
     font-size: 30px;
-    font-family: 'Poppins', sans-serif;
 }
 #paragrafoomiranha{
     margin-top: 2%;
     font-size: 16px;
-    font-family: 'Poppins', sans-serif;
    
 }
 #omiranha{
@@ -217,12 +214,12 @@ i{
 #titulo4{
     font-size: 35px;
     margin-top: 3%;
-    font-family: 'Poppins', sans-serif;
+
 }
 #paragrafoloren{
     font-size: 16px;
     margin-top: 3%;
-    font-family: 'Poppins', sans-serif;
+  
 }
 #sectionwork{
     align-content:center ;
@@ -251,9 +248,9 @@ i{
 }
 #pwork{
     display: flex;
-    justify-content: left;
     font-size: 12px;
-    margin-left:0%;
+    margin-left:3%;
+    margin-top: 2%;
 }
 #twoimage{
     display: flex;
@@ -311,7 +308,10 @@ footer {
     flex-direction: column;
     padding: var(--size-fluid-1) var(--size-fluid-1) var(--size-fluid-1) var(--size-fluid-1);
 }
-
+#seta{
+    color: #D75413;
+    margin-left: 16%;
+}
 #contact {
     display: flex;
     flex-direction: column;
