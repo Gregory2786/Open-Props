@@ -194,6 +194,21 @@ i{
     border-radius: var(--radius-2);
     display: block;
 }
+#tituloomiranha{
+    margin-top: 5%;
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+#paragrafoomiranha{
+    margin-top: 2%;
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+   
+}
+#omiranha{
+    margin-top: 5%;
+    width: 100%;
+}
 #loren{
     display: flex;
     flex-direction: column;
@@ -212,6 +227,11 @@ i{
 #sectionwork{
     align-content:center ;
 }
+#wconf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 #works{
     display: flex;
     justify-content: center;
@@ -228,6 +248,12 @@ i{
     width: 40%;
 
 
+}
+#pwork{
+    display: flex;
+    justify-content: left;
+    font-size: 12px;
+    margin-left:0%;
 }
 #twoimage{
     display: flex;
